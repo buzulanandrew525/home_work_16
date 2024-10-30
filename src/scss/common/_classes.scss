@@ -1,2 +1,25 @@
 @use "../presets" as *;
 @use "../mixins" as *;
+
+.btn {
+    font-size: 18px;
+    letter-spacing: 0.1em;
+
+    min-width: 250px;
+    min-height: 60px;
+    flex-shrink: 0;
+
+    border: 2px solid $color-white;
+    background-color: rgba($color-white, 0.10);
+
+    display: flex;
+    padding: 0.5em 1em;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+
+    &:hover,
+    &:focus {
+        background-color: $color-accent;
+    }
+}
