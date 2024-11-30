@@ -12,7 +12,7 @@
   <!-- Подключаем иконочный шрифт fontawesome -->
   <link rel="stylesheet" href="libs/@fortawesome/fontawesome-free/css/all.min.css">
   <!-- Подключаем наш основной стиль, с которым будем работать -->
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="src/scss/style.css">
   <title>GRID-TEMPLATE</title>
 </head>
 
@@ -44,6 +44,13 @@
         </div><!-- header-logo -->
         <!-- header-navbar -->
         <nav class="header-navbar">
+          <!-- header-navbar__btn -->
+          <div class="header-navbar__btn">
+            <span class="header-navbar__btn-row"></span>
+            <span class="header-navbar__btn-row"></span>
+            <span class="header-navbar__btn-row"></span>
+          </div> <!-- header-navbar__btn -->
+
           <ul class="header-navbar__list">
             <!-- todo: create trigger button -->
             <li class="header-navbar__item">
@@ -64,6 +71,86 @@
     <!-- header-overlay -->
     <div class="header-overlay"></div>
   </header><!-- header -->
+  <!-- main -->
+  <main class="main">
+    <!-- skill -->
+    <section class="skills">
+      <h2 class="skills__title visually-hidden">Deceloper Skils Section</h2>
+      <div class="skills__container">
+        <article class="skill-item">
+          <h3 class="skill-item__title">
+            <a class="skill-item__link" href="">HTML</a>
+          </h3>
+          <div class="skill-item__image" style="background-image: url(assets/images/img-html.png);"></div>
+          <div class="skill-item__overlay"></div>
+        </article>
+        <article class="skill-item">
+          <h3 class="skill-item__title">
+            <a class="skill-item__link" href="">CSS</a>
+          </h3>
+          <div class="skill-item__image" style="background-image: url(assets/images/img-css.png);"></div>
+          <div class="skill-item__overlay"></div>
+        </article>
+        <article class="skill-item">
+          <h3 class="skill-item__title">
+            <a class="skill-item__link" href="">Markup</a>
+          </h3>
+          <div class="skill-item__image" style="background-image: url(assets/images/img-markup.png);"></div>
+          <div class="skill-item__overlay"></div>
+        </article>
+        <article class="skill-item">
+          <h3 class="skill-item__title">
+            <a class="skill-item__link" href="">Web-Design</a>
+          </h3>
+          <div class="skill-item__image" style="background-image: url(assets/images/img-webdesign.png);"></div>
+          <div class="skill-item__overlay"></div>
+        </article>
+        <article class="skill-item">
+          <h3 class="skill-item__title">
+            <a class="skill-item__link" href="">Quality Assurance</a>
+          </h3>
+          <div class="skill-item__image" style="background-image: url(assets/images/img-qa.png);"></div>
+          <div class="skill-item__overlay"></div>
+        </article>
+        <article class="skill-item">
+          <h3 class="skill-item__title">
+            <a class="skill-item__link" href="">Codding</a>
+          </h3>
+          <div class="skill-item__image" style="background-image: url(assets/images/img-codding.png);"></div>
+          <div class="skill-item__overlay"></div>
+        </article>
+        <article class="skill-item">
+          <h3 class="skill-item__title">
+            <a class="skill-item__link" href="">Adaptability</a>
+          </h3>
+          <div class="skill-item__image" style="background-image: url(assets/images/img-adaptability.png);"></div>
+          <div class="skill-item__overlay"></div>
+        </article>
+        <article class="skill-item">
+          <h3 class="skill-item__title">
+            <a class="skill-item__link" href="">PHP</a>
+          </h3>
+          <div class="skill-item__image" style="background-image: url(assets/images/img-php.png);"></div>
+          <div class="skill-item__overlay"></div>
+        </article>
+        <article class="skill-item">
+          <h3 class="skill-item__title">
+            <a class="skill-item__link" href="">SEO</a>
+          </h3>
+          <div class="skill-item__image" style="background-image: url(assets/images/img-seo.png);"></div>
+          <div class="skill-item__overlay"></div>
+        </article>
+      </div>
+      <div class="skills__actions">
+        <a class="btn btn--primary" href="">View all skills...</a>
+      </div>
+    </section><!-- skill -->
+    
+    <!-- about -->
+    <section>
+
+    </section><!-- about -->
+  </main><!-- main -->
 
   <!-- footer -->
   <footer>

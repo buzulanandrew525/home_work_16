@@ -10,14 +10,15 @@
     }
 
     &__title {
-        @media (min-width: $lg) {
+        @include lg-min {
             margin: 0 0 53px;
         }
-        @media (max-width: $lg - 0.2px) {
+
+        @include lg-md {
             margin: 0 0 43px;
         }
 
-        @media (max-width: $md - 0.2px) {
+        @include md {
             margin: 0 0 33px;
         }
     }
@@ -26,5 +27,10 @@
         display: flex;
         gap: $gap;
         justify-content: center;
+
+        @include sm {
+            flex-direction: column;
+            align-items: center;
+        }
     }
 }
